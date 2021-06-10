@@ -40,13 +40,6 @@ jobs:
           REBASE_BRANCH: dunfell
           BASE_BRANCH: master
 
-      - name: rebase dunfell
-        uses: iris-GmbH/gh-action-rebase@1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REBASE_BRANCH: dunfell
-          BASE_BRANCH: master
-
       - name: rebase gatesgarth
         uses: iris-GmbH/gh-action-rebase@1.0
         env:
